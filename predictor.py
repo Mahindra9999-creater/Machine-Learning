@@ -6,7 +6,7 @@ import numpy as np
 import requests
 import pickle
 
-model_url = 'https://raw.githubusercontent.com/Mahindra9999-creater/Machine-Learning/master/model_pickle2'
+model_url = 'https://raw.githubusercontent.com/Mahindra9999/Machine-Learning/master/model_pickle2'
 response = requests.get(model_url, stream = True)
 response.raise_for_status()
 
